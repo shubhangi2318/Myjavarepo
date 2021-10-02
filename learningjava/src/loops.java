@@ -1,10 +1,12 @@
 public class loops {
     public static void main(String[] args) {
-        for(int i=0;i<5;i++){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
             System.out.println(i);
         }
         int j=0;
-        while(j<5){
+        while(j<n){
            System.out.println(j);
            j++;
         }
@@ -14,6 +16,6 @@ public class loops {
             System.out.println(k);
             k++;
         }
-        while(k<5);
+        while(k<n);
     }
 }
